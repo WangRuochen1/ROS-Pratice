@@ -1,0 +1,5 @@
+mkdir -p/ ~/catkin_ws/src
+cd catkin_ws
+catkin_make      #compile work space
+catkin_create_pkg ros_basic_tutorials std_msgs rospy roscpp
+#create package    #package name      #ros dependence
