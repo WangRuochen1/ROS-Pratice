@@ -22,4 +22,4 @@ rosmsg
 
 rostopic echo + topic   //can see all msg in this topic
 
-//we can publish a topic through terminal use "rostopic pub"
+//we can publish a topic through terminal please use "rostopic pub"
