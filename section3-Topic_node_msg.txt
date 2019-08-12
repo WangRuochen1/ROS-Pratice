@@ -1,0 +1,25 @@
+rosnode list
+rostopic list
+rosnode info
+
+//to run turtlesim node what we need is the following
+
+rosrun turtlesim   // this will give you all the service we have in this package
+rosrun turtlesim turtlesim_node // this will run the node
+
+//turtlesim is the package name
+//turtlesim_node is the node name
+//rosrun will help you to run a node
+
+rosnode info + rostopic name
+// this will help you to find information for certain node
+
+rosmsg
+// give you all the service can do with rosmsg
+
+//a ros message is the entity changed between two nodes to convey information about the topic
+//Twist(a msg type) contain linear and angular velocities in x, y, z directoin
+
+rostopic echo + topic   //can see all msg in this topic
+
+//we can publish a topic through terminal use "rostopic pub"
