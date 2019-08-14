@@ -1,3 +1,6 @@
 Not like topic, server is a one-time communication
 A client send a request and server send back response
 
+cmd:
+rosservice list // list all the service in a node
+rosservice info +/service name  // information of one service
