@@ -1,0 +1,24 @@
+Not like topic, server is a one-time communication
+A client send a request and server send back response
+
+cmd:
+rosservice list // list all the service in a node
+rosservice info +/service name  // information of one service
+rosservice call +/service name +all the parameter in service // this can create a new servie 
+
+
+In service
+Client send request message to Server 
+Server send response message to Client
+
+Step to create client/server ros service
+
+1.define server message(service file)
+2.create server node
+3.create client node
+4.excute the service
+5.consume the service by the client
+
+
+package.xml -->build depend + message time
+CMakeList.txt
