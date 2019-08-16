@@ -16,6 +16,7 @@ int main(int argc, char **argv)
   ros::NodeHandle n;
 
   ros::ServiceServer service = n.advertiseService("add_two_ints", add);
+  //service name and add is the function called when request comes.
   ROS_INFO("Ready to add two ints.");
   ros::spin();
 

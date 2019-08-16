@@ -22,6 +22,7 @@ Step to create client/server ros service
 
 package.xml -->build depend + message time
 CMakeList.txt
+Always remember to change package.xml and CMakeList.txt and then catkinmake before running program.
 
 rosservice show + service_name //give you all this service in all files
 
