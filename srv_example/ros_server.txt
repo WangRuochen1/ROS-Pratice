@@ -22,3 +22,9 @@ Step to create client/server ros service
 
 package.xml -->build depend + message time
 CMakeList.txt
+
+rosservice show + service_name //give you all this service in all files
+
+type of service message is in .srv file
+
+all the comment of client and server file is in ros_essential_cpp 
