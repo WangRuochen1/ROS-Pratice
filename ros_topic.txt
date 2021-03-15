@@ -8,3 +8,5 @@ rostopic echo + topic name // display ros message public in the topic
 rostopic info + topic name //topic message type, publisher and Subscriber
 
 ajsdkfl;jasdkfl;jaskldf;ajskdfl;jasdklf;asjdklf;jaskdl;f
+
+10102928645345980347590347589012759048175098347509813
